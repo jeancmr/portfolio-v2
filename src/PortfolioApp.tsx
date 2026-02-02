@@ -1,4 +1,5 @@
 import { About } from './components/About';
+import { Featured } from './components/Featured';
 import { Hero } from './components/Hero';
 import { Skills } from './components/Skills';
 import { Separator } from './components/ui/separator';
@@ -12,6 +13,7 @@ export const App = () => {
       <Separator className="mx-auto max-w-4xl" />
       <Skills />
       <Separator className="mx-auto max-w-4xl" />
+      <Featured />
     </div>
   );
 };
