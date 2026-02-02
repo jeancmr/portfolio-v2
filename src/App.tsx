@@ -1,3 +1,11 @@
+import { Button } from './components/ui/button';
+
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <h1>App</h1>
+
+      <Button>click</Button>
+    </>
+  );
 };
